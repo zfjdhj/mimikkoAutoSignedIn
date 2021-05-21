@@ -5,8 +5,8 @@ name: CI
 # Controls when the action will run. 
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
-  # push:
-    # branches: [ master ]
+  push:
+    branches: [ test ]
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron:  '2 4,16 * * *'
@@ -41,7 +41,7 @@ jobs:
         uses: seanmiddleditch/gha-publish-to-git@master
         with:
           repository: ${{ github.repository }}
-          target_folder: log
+          # target_folder: log
           branch: master
-          source_folder: log
+          # source_folder: log
           github_token: ${{ secrets.SECRET_TOKEN }}
