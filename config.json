@@ -1,10 +1,1 @@
-{
-    "code": "ruri",
-    "app_version": "3.1.7",
-    "max_favorability": 135950,
-    "servant_list": [
-        "nemuri",
-        "momona",
-        "miruku2"
-    ]
-}
+{"code": "nemuri", "app_version": "3.1.7", "max_favorability": 135950, "servant_list": ["nemuri", "momona", "miruku2"]}
