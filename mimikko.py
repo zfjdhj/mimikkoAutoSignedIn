@@ -109,7 +109,7 @@ defeat_set = "https://api1.mimikko.cn/client/Servant/SetDefaultServant"
 def write2json(path, data):
     with open(path, "w", encoding="utf8") as f:
         json.dump(data, f, ensure_ascii=False)
-        print("config写入文件完成...")
+        log.logger.info(f"{data}写入文件{path}完成...")
 
 
 def apiRequest(url, app_id, Authorization, params, method="GET"):

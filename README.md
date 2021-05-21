@@ -1,10 +1,10 @@
-# mimikkoAutoSignin
+# mimikko_api_test
 
-用于兽耳桌面自动签到
+用于兽耳桌面相关接口测试
 
 ## 使用
 
-1. 抓包软件获取签到时的app_id,Authorization
+1. 抓包软件获取登录时的app_id,Authorization
 
 2. 创建action secrets
 `secrets.APP_ID`,`secrets.AUTHORIZATION`;
@@ -16,9 +16,23 @@
     ``` json
     {
         "code": "ruri",
-        "app_version": "3.1.7"
+        "app_version": "3.1.7",
+        "max_favorability": 135950,
+        "servant_list": [
+            "nemuri",
+            "momona",
+            "miruku2"
+        ]
     }
     ```
+
+    参数含义：
+    | 参数 | 含义 |
+    | :- | :- |
+    | code | 需要操作的助手名称，具体参考下文 |
+    | app_version | 当前app版本，暂时无影响 |
+    | max_favorability | 好感上限阈值 |
+    | servant_list | 助手列表 |
 
     支持的助手code：
     | 助手名称 | code |
@@ -40,7 +54,7 @@
 
     如不需要，请注释掉
 
-    4.2 签到图片输出到文件，消息推送等等，没有这些功能，未来也不会做，与现有[插件版](https://github.com/zfjdhj/zfjbot-mimikko)功能重合。
+    4.2 每日图片输出到文件，消息推送等等，没有这些功能，未来也不会做，与现有[插件版](https://github.com/zfjdhj/zfjbot-mimikko)功能重合。
 
 ## Hoshino插件版
 
@@ -55,6 +69,12 @@
 <https://github.com/cyb233/mimikkoAutoSignIn>
 
 ## 更新
+
+### 20210521
+
+1. 新增功能：当助手好感达到`好感上限阈值`，自动切换至`助手列表`下一助手
+
+### 远古更新
 
 1. 新增日志输出到文件，需要设定secrets.SECRET_TOKEN
 
