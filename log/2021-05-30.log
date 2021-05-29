@@ -1,0 +1,11 @@
+2021-05-30 01:09:14,767 - mimikko.py[line:150] - ERROR: HTTPSConnectionPool(host='api1.mimikko.cn', port=443): Read timed out. (read timeout=300)
+2021-05-30 01:14:19,284 - mimikko.py[line:150] - ERROR: HTTPSConnectionPool(host='api1.mimikko.cn', port=443): Read timed out. (read timeout=300)
+2021-05-30 01:14:19,285 - mimikko.py[line:112] - INFO: {'code': 'nemuri', 'app_version': '3.1.7', 'max_favorability': 135950, 'servant_list': ['nemuri', 'momona', 'miruku2']}写入文件/home/runner/work/mimikkoAutoSignIn/mimikkoAutoSignIn/config.json完成...
+2021-05-30 01:14:19,285 - mimikko.py[line:194] - INFO: sign_data:
+{'code': '0', 'body': {'date': '2021-05-30T01:04:12+0800', 'signTime': 1622307852418, 'Name': '——《玉子市场》', 'Description': '年轻人总是急于求成，以至于连等待一勺糖从咖啡里融化的耐心都没有，后悔所带来的苦涩，恰好印证了你曾经的有所作为。', 'PictureUrl': 'https://mimikko.oss-cn-shanghai.aliyuncs.com/file/20210528/20210528200027_efhd.jpg', 'Reward': 50, 'GetCoin': 7, 'GetExp': 95}}
+2021-05-30 01:14:19,285 - mimikko.py[line:204] - INFO: energy_info_data:
+{'code': '0', 'msg': '操作成功', 'body': {'Favorability': 89471, 'MaxFavorability': 136000, 'Level': 4, 'LevelDescription': '四级', 'Energy': 24, 'MaxEnergy': 100, 'AssistLevels': [{'value': 1, 'maxSensitivity': 10000, 'description': '一级'}, {'value': 2, 'maxSensitivity': 36000, 'description': '二级'}, {'value': 3, 'maxSensitivity': 78000, 'description': '三级'}, {'value': 4, 'maxSensitivity': 136000, 'description': '四级'}], 'NicekNames': [], 'code': 'nemuri'}, 'ok': True}
+2021-05-30 01:14:19,285 - mimikko.py[line:213] - INFO: energy_reward_data:
+None
+2021-05-30 01:14:19,285 - mimikko.py[line:220] - INFO: sign_history:
+None
