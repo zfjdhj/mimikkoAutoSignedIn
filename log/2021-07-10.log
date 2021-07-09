@@ -1,0 +1,11 @@
+2021-07-10 00:13:36,005 - mimikko.py[line:150] - ERROR: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2021-07-10 00:13:36,458 - mimikko.py[line:150] - ERROR: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2021-07-10 00:13:36,459 - mimikko.py[line:112] - INFO: {'code': 'nemuri', 'app_version': '3.1.7', 'max_favorability': 135950, 'servant_list': ['nemuri', 'momona', 'miruku2']}写入文件/home/runner/work/mimikkoAutoSignIn/mimikkoAutoSignIn/config.json完成...
+2021-07-10 00:13:36,459 - mimikko.py[line:194] - INFO: sign_data:
+{'code': '0', 'body': {'date': '2021-07-10T00:13:31+0800', 'signTime': 1625847211066, 'Name': '——《海贼王》', 'Description': '在这片海洋中，若无法向上攀游，就只有往下沉沦，是要前进或是溺死，就得看自己的选择。既然这么不甘心，就变得更强！', 'PictureUrl': 'https://mimikko.oss-cn-shanghai.aliyuncs.com/file/20210709/20210709163814_1zzg.jpg', 'Reward': 50, 'GetCoin': 7, 'GetExp': 95}}
+2021-07-10 00:13:36,460 - mimikko.py[line:204] - INFO: energy_info_data:
+{'code': '0', 'msg': '操作成功', 'body': {'Favorability': 99073, 'MaxFavorability': 136000, 'Level': 4, 'LevelDescription': '四级', 'Energy': 24, 'MaxEnergy': 100, 'AssistLevels': [{'value': 1, 'maxSensitivity': 10000, 'description': '一级'}, {'value': 2, 'maxSensitivity': 36000, 'description': '二级'}, {'value': 3, 'maxSensitivity': 78000, 'description': '三级'}, {'value': 4, 'maxSensitivity': 136000, 'description': '四级'}], 'NicekNames': [], 'code': 'nemuri'}, 'ok': True}
+2021-07-10 00:13:36,460 - mimikko.py[line:213] - INFO: energy_reward_data:
+{'code': '0', 'msg': '操作成功', 'body': {'Favorability': 99097, 'MaxFavorability': 136000, 'Level': 4, 'LevelDescription': '四级', 'Energy': 0, 'MaxEnergy': 100, 'AssistLevels': [{'value': 1, 'maxSensitivity': 10000, 'description': '一级'}, {'value': 2, 'maxSensitivity': 36000, 'description': '二级'}, {'value': 3, 'maxSensitivity': 78000, 'description': '三级'}, {'value': 4, 'maxSensitivity': 136000, 'description': '四级'}], 'NicekNames': [], 'code': 'nemuri'}, 'ok': True}
+2021-07-10 00:13:36,460 - mimikko.py[line:220] - INFO: sign_history:
+None
