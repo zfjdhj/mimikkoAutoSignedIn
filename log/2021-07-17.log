@@ -1,0 +1,11 @@
+2021-07-17 00:18:07,191 - mimikko.py[line:150] - ERROR: HTTPSConnectionPool(host='api1.mimikko.cn', port=443): Read timed out. (read timeout=300)
+2021-07-17 00:23:10,814 - mimikko.py[line:150] - ERROR: HTTPSConnectionPool(host='api1.mimikko.cn', port=443): Read timed out. (read timeout=300)
+2021-07-17 00:23:13,683 - mimikko.py[line:112] - INFO: {'code': 'nemuri', 'app_version': '3.1.7', 'max_favorability': 135950, 'servant_list': ['nemuri', 'momona', 'miruku2']}写入文件/home/runner/work/mimikkoAutoSignIn/mimikkoAutoSignIn/config.json完成...
+2021-07-17 00:23:13,684 - mimikko.py[line:194] - INFO: sign_data:
+{'code': '0', 'body': {'date': '2021-07-17T00:13:06+0800', 'signTime': 1626451986286, 'Name': '——兽耳助手', 'Description': '1966年7月17日，初代奥特曼《宇宙英雄奥特曼》登上电视荧屏！奥特曼世界的开始！', 'PictureUrl': 'https://mimikko.oss-cn-shanghai.aliyuncs.com/SignCard/0717-717.png', 'Reward': 767, 'GetCoin': 7, 'GetExp': 95}}
+2021-07-17 00:23:13,684 - mimikko.py[line:204] - INFO: energy_info_data:
+None
+2021-07-17 00:23:13,684 - mimikko.py[line:213] - INFO: energy_reward_data:
+您的能量值不足，无法兑换
+2021-07-17 00:23:13,684 - mimikko.py[line:220] - INFO: sign_history:
+{'code': '0', 'body': {'startTime': 1626452593528, 'endTime': 1623859200000, 'registrationDate': None, 'signLogs': [{'signDate': 1626451986000}, {'signDate': 1626365589000}, {'signDate': 1626279205000}, {'signDate': 1626192800000}, {'signDate': 1626106402000}, {'signDate': 1626019928000}, {'signDate': 1625933536000}, {'signDate': 1625847211000}, {'signDate': 1625761081000}, {'signDate': 1625674738000}, {'signDate': 1625587984000}, {'signDate': 1625501581000}, {'signDate': 1625415136000}, {'signDate': 1625328740000}, {'signDate': 1625242487000}, {'signDate': 1625155979000}, {'signDate': 1625069589000}, {'signDate': 1624983191000}, {'signDate': 1624896891000}, {'signDate': 1624810344000}, {'signDate': 1624723947000}, {'signDate': 1624637570000}, {'signDate': 1624551269000}, {'signDate': 1624465079000}, {'signDate': 1624378985000}, {'signDate': 1624292596000}, {'signDate': 1624206102000}, {'signDate': 1624119705000}, {'signDate': 1624075201000}, {'signDate': 1623947096000}, {'signDate': 1623860662000}]}}
