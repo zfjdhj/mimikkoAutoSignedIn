@@ -1,0 +1,11 @@
+2021-07-21 00:13:11,453 - mimikko.py[line:150] - ERROR: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2021-07-21 00:13:14,298 - mimikko.py[line:150] - ERROR: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2021-07-21 00:13:14,299 - mimikko.py[line:112] - INFO: {'code': 'nemuri', 'app_version': '3.1.7', 'max_favorability': 135950, 'servant_list': ['nemuri', 'momona', 'miruku2']}写入文件/home/runner/work/mimikkoAutoSignIn/mimikkoAutoSignIn/config.json完成...
+2021-07-21 00:13:14,301 - mimikko.py[line:194] - INFO: sign_data:
+{'code': '0', 'body': {'date': '2021-07-21T00:13:10+0800', 'signTime': 1626797590861, 'Name': '——《假面骑士W》', 'Description': '我忘记了最重要的事，承袭了鸣海庄吉意志的W，不能成为战斗的机器。只有强悍的W是没有价值的，你的温柔是必须的，翔太郎。如果说那是一种软弱，我也会全盘接受。', 'PictureUrl': 'https://mimikko.oss-cn-shanghai.aliyuncs.com/file/20210720/20210720214452_kywt.jpg', 'Reward': 50, 'GetCoin': 7, 'GetExp': 95}}
+2021-07-21 00:13:14,302 - mimikko.py[line:204] - INFO: energy_info_data:
+None
+2021-07-21 00:13:14,302 - mimikko.py[line:213] - INFO: energy_reward_data:
+您的能量值不足，无法兑换
+2021-07-21 00:13:14,302 - mimikko.py[line:220] - INFO: sign_history:
+None
