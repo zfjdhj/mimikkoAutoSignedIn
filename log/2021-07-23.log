@@ -1,0 +1,14 @@
+2021-07-23 00:13:43,470 - mimikko.py[line:150] - ERROR: HTTPSConnectionPool(host='api1.mimikko.cn', port=443): Max retries exceeded with url: /client/RewardRuleInfo/SignAndSignInformationV3 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f140ab066d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2021-07-23 00:13:43,932 - mimikko.py[line:150] - ERROR: HTTPSConnectionPool(host='api1.mimikko.cn', port=443): Max retries exceeded with url: /client/love/GetUserServantInstance?code=nemuri (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f140ab064f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2021-07-23 00:13:44,333 - mimikko.py[line:150] - ERROR: HTTPSConnectionPool(host='api1.mimikko.cn', port=443): Max retries exceeded with url: /client/Servant/SetDefaultServant?code=nemuri (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f140aa90100>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2021-07-23 00:13:44,767 - mimikko.py[line:150] - ERROR: HTTPConnectionPool(host='api1.mimikko.cn', port=80): Max retries exceeded with url: /client/user/GetUserSignedInformation (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f140b6d2160>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2021-07-23 00:13:44,938 - mimikko.py[line:150] - ERROR: HTTPConnectionPool(host='api1.mimikko.cn', port=80): Max retries exceeded with url: /client/dailysignin/log/30/0 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f140ab06b20>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2021-07-23 00:13:44,939 - mimikko.py[line:112] - INFO: {'code': 'nemuri', 'app_version': '3.1.7', 'max_favorability': 135950, 'servant_list': ['nemuri', 'momona', 'miruku2']}写入文件/home/runner/work/mimikkoAutoSignIn/mimikkoAutoSignIn/config.json完成...
+2021-07-23 00:13:44,940 - mimikko.py[line:194] - INFO: sign_data:
+None
+2021-07-23 00:13:44,940 - mimikko.py[line:204] - INFO: energy_info_data:
+None
+2021-07-23 00:13:44,941 - mimikko.py[line:213] - INFO: energy_reward_data:
+您的能量值不足，无法兑换
+2021-07-23 00:13:44,941 - mimikko.py[line:220] - INFO: sign_history:
+None

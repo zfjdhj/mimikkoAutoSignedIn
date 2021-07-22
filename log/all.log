@@ -3195,3 +3195,17 @@ None
 您的能量值不足，无法兑换
 2021-07-22 12:29:17,355 - mimikko.py[line:220] - INFO: sign_history:
 {'code': '0', 'body': {'startTime': 1626928157204, 'endTime': 1624291200000, 'registrationDate': None, 'signLogs': [{'signDate': 1626926402000}, {'signDate': 1626797590000}, {'signDate': 1626711185000}, {'signDate': 1626624738000}, {'signDate': 1626538361000}, {'signDate': 1626451986000}, {'signDate': 1626365589000}, {'signDate': 1626279205000}, {'signDate': 1626192800000}, {'signDate': 1626106402000}, {'signDate': 1626019928000}, {'signDate': 1625933536000}, {'signDate': 1625847211000}, {'signDate': 1625761081000}, {'signDate': 1625674738000}, {'signDate': 1625587984000}, {'signDate': 1625501581000}, {'signDate': 1625415136000}, {'signDate': 1625328740000}, {'signDate': 1625242487000}, {'signDate': 1625155979000}, {'signDate': 1625069589000}, {'signDate': 1624983191000}, {'signDate': 1624896891000}, {'signDate': 1624810344000}, {'signDate': 1624723947000}, {'signDate': 1624637570000}, {'signDate': 1624551269000}, {'signDate': 1624465079000}, {'signDate': 1624378985000}, {'signDate': 1624292596000}]}}
+2021-07-23 00:13:43,470 - mimikko.py[line:150] - ERROR: HTTPSConnectionPool(host='api1.mimikko.cn', port=443): Max retries exceeded with url: /client/RewardRuleInfo/SignAndSignInformationV3 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f140ab066d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2021-07-23 00:13:43,932 - mimikko.py[line:150] - ERROR: HTTPSConnectionPool(host='api1.mimikko.cn', port=443): Max retries exceeded with url: /client/love/GetUserServantInstance?code=nemuri (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f140ab064f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2021-07-23 00:13:44,333 - mimikko.py[line:150] - ERROR: HTTPSConnectionPool(host='api1.mimikko.cn', port=443): Max retries exceeded with url: /client/Servant/SetDefaultServant?code=nemuri (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f140aa90100>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2021-07-23 00:13:44,767 - mimikko.py[line:150] - ERROR: HTTPConnectionPool(host='api1.mimikko.cn', port=80): Max retries exceeded with url: /client/user/GetUserSignedInformation (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f140b6d2160>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2021-07-23 00:13:44,938 - mimikko.py[line:150] - ERROR: HTTPConnectionPool(host='api1.mimikko.cn', port=80): Max retries exceeded with url: /client/dailysignin/log/30/0 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f140ab06b20>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2021-07-23 00:13:44,939 - mimikko.py[line:112] - INFO: {'code': 'nemuri', 'app_version': '3.1.7', 'max_favorability': 135950, 'servant_list': ['nemuri', 'momona', 'miruku2']}写入文件/home/runner/work/mimikkoAutoSignIn/mimikkoAutoSignIn/config.json完成...
+2021-07-23 00:13:44,940 - mimikko.py[line:194] - INFO: sign_data:
+None
+2021-07-23 00:13:44,940 - mimikko.py[line:204] - INFO: energy_info_data:
+None
+2021-07-23 00:13:44,941 - mimikko.py[line:213] - INFO: energy_reward_data:
+您的能量值不足，无法兑换
+2021-07-23 00:13:44,941 - mimikko.py[line:220] - INFO: sign_history:
+None
